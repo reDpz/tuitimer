@@ -1,4 +1,4 @@
-package myTimer;
+package tuitimer;
 
 import java.util.Scanner;
 
