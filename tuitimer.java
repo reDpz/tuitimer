@@ -28,6 +28,9 @@ public class tuitimer {
     int[] timerTime = { 0, 0, 0 };
     int time; // time in seconds
 
+    /**
+     * @param _time Time in seconds
+     */
     public tuitimer(int _time) {
         time = _time;
     }
@@ -68,6 +71,10 @@ public class tuitimer {
 
     }
 
+    /**
+     * @param hmsString Takes in a string in format "H:M:S" and converts it to
+     *                  seconds.
+     */
     void HMStoS(String hmsString) {
         String[] hmsSplit = hmsString.split(":");
         int unit;
